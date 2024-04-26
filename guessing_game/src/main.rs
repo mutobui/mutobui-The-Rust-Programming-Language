@@ -14,7 +14,7 @@ fn main() {
     println!("Let's play guessing game!");
     println!("Input for number: ");
 
-    const MAX: i32 = 10000000;
+    const MAX: i32 = i32::MAX;
     let mut guess = MAX / 2;
     let mut gap = MAX / 4;
     let mut count = 1;
